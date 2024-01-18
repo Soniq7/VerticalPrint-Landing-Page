@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/VerticalPrint-Landing-Page/static/js/main.8193625e.js",
+    "static/js/787.821c778a.chunk.js": "/VerticalPrint-Landing-Page/static/js/787.821c778a.chunk.js",
+    "index.html": "/VerticalPrint-Landing-Page/index.html",
+    "main.8193625e.js.map": "/VerticalPrint-Landing-Page/static/js/main.8193625e.js.map",
+    "787.821c778a.chunk.js.map": "/VerticalPrint-Landing-Page/static/js/787.821c778a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.8193625e.js"
+  ]
+}
