@@ -1,10 +1,14 @@
-import { StyledNav, Logo, NavList } from "./styled";
-import logoSVG from "../../../common/images/VerticalPrintLogo.svg"
+import { StyledNav, Logo, NavList, VPrintIcon } from "./styled";
+// import logoSVG from "../../../common/images/VerticalPrintLogo.svg"
 
 export const Navigation = () => {
   return (
       <StyledNav>
-        <Logo src={logoSVG} />
+        <Logo 
+        to="/"
+        >
+        <VPrintIcon />
+        </Logo>
         <NavList>O nas</NavList>
         <NavList>Technologia</NavList>
         <NavList>Detale</NavList>
