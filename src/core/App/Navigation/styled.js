@@ -17,6 +17,13 @@ export const StyledNav = styled.ul`
   padding: 0px 60px 0px 0px;
   gap: 100px;
   border-radius: 0px 0px 30px 30px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
+    align-content: center;
+    display: inline-flex;
+    gap: 25px;
+    padding-bottom: 20px;
+  }
 `;
 
 export const Logo = styled(NavLink)`
@@ -25,6 +32,10 @@ export const Logo = styled(NavLink)`
 
 export const VPrintIcon = styled(LogoIcon)`
   height: 90px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    height: 60px
+  }
 `;
 
 export const NavList = styled.li`
