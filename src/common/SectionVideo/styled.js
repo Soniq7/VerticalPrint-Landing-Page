@@ -11,5 +11,9 @@ export const Video = styled.video`
   width: 100%;
   object-fit: cover;
   z-index: -1;
-  margin-top: 50px;
+  margin-top: 100px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
+    margin-top: 90px;
+  }
 `;

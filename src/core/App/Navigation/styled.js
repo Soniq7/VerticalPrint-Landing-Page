@@ -14,15 +14,14 @@ export const StyledNav = styled.ul`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0px 60px 0px 0px;
   gap: 100px;
-  border-radius: 0px 0px 30px 30px;
+  /* border-radius: 0px 0px 30px 30px; */
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
     align-content: center;
     display: inline-flex;
     gap: 25px;
-    padding-bottom: 20px;
+    padding: 10px;
   }
 `;
 
@@ -32,9 +31,11 @@ export const Logo = styled(NavLink)`
 
 export const VPrintIcon = styled(LogoIcon)`
   height: 90px;
+  width: auto;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    height: 60px
+  @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
+    height: 60px;
+    width: auto;
   }
 `;
 
