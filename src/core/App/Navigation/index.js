@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { StyledNav, Logo, NavList, VPrintIcon } from "./styled";
+import { StyledNav, Logo, NavList, VPrintIcon, StyledCloseIcon, StyledMenuIcon, Button } from "./styled";
+
 
 const Navigation = () => {
   // Początkowy stan menu mobilnego - zamknięte
@@ -42,7 +43,9 @@ const Navigation = () => {
         // Menu z rozwijaną listą na mniejszych ekranach
         <div>
           {/* Przycisk menu */}
-          <button onClick={toggleMenu}>Menu</button>
+          <Button onClick={toggleMenu}>
+            {isMenuOpen ? <StyledCloseIcon /> : <StyledMenuIcon />} {/* Warunkowe renderowanie ikon */}
+          </Button>
           {/* Ustawienie początkowego stanu menu mobilnego na zamknięte */}
           {isMenuOpen && (
             <div>
