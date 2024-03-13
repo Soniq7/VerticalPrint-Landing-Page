@@ -1,8 +1,22 @@
-# Demo:
+# VerticalPrint - Landing Page
+
+Individual project of a landing page dedicated to VerticalPrint company.
+
+## Demo
 
 https://soniq7.github.io/VerticalPrint-Landing-Page/
 
-# Getting Started with Create React App
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+- React
+- Git
+- Styled Components
+
+
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
