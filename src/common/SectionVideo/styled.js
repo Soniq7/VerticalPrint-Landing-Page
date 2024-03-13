@@ -14,6 +14,6 @@ export const Video = styled.video`
   margin-top: 100px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
-    margin-top: 90px;
+    margin-top: 80px;
   }
 `;

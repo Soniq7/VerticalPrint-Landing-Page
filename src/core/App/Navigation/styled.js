@@ -35,7 +35,7 @@ export const VPrintIcon = styled(LogoIcon)`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
     display: grid;
-    height: 60px;
+    height: 50px;
     width: auto;
   }
 `;
