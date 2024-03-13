@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/VerticalPrint-Landing-Page/static/js/main.6c08fc21.js",
+    "main.js": "/VerticalPrint-Landing-Page/static/js/main.c59aff8b.js",
     "static/js/787.821c778a.chunk.js": "/VerticalPrint-Landing-Page/static/js/787.821c778a.chunk.js",
     "static/media/VerticalPrintLogo.svg": "/VerticalPrint-Landing-Page/static/media/VerticalPrintLogo.321abff0cbd815497fd05652f5cb5d4a.svg",
     "index.html": "/VerticalPrint-Landing-Page/index.html",
-    "main.6c08fc21.js.map": "/VerticalPrint-Landing-Page/static/js/main.6c08fc21.js.map",
+    "main.c59aff8b.js.map": "/VerticalPrint-Landing-Page/static/js/main.c59aff8b.js.map",
     "787.821c778a.chunk.js.map": "/VerticalPrint-Landing-Page/static/js/787.821c778a.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.6c08fc21.js"
+    "static/js/main.c59aff8b.js"
   ]
 }
