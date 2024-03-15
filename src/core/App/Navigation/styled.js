@@ -98,11 +98,11 @@ const slideOut = keyframes`
 
 export const MobileMenu = styled.div`
   position: fixed;
-  top: 60px; /* Adjust as necessary based on your navigation bar height */
+  top: 80px; /* Adjust as necessary based on your navigation bar height */
   right: 0;
   background-color: ${({ theme }) => theme.colors.mineShaft};
   width: 200px; /* Adjust as necessary */
-  height: calc(100vh - 60px); /* Adjust as necessary */
+  height: calc(100vh - 80px); /* Adjust as necessary */
   overflow-y: auto; /* Enable scrolling if content exceeds height */
   padding: 20px;
   z-index: 1000; /* Ensure it's above other content */
