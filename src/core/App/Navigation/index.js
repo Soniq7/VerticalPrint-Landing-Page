@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyledNav, Logo, NavList, VPrintIcon, StyledCloseIcon, StyledMenuIcon, Button } from "./styled";
+import { StyledNav, Logo, NavList, VPrintIcon, StyledCloseIcon, StyledMenuIcon, Button, MobileMenu } from "./styled";
 
 
 const Navigation = () => {
@@ -48,12 +48,12 @@ const Navigation = () => {
           </Button>
           {/* Ustawienie początkowego stanu menu mobilnego na zamknięte */}
           {isMenuOpen && (
-            <div>
-              <NavList>O nas</NavList>
-              <NavList>Technologia</NavList>
-              <NavList>Detale</NavList>
-              <NavList>Kontakt</NavList>
-            </div>
+            <MobileMenu $isOpen={isMenuOpen}>
+              <NavList onClick={closeMenu}>O nas</NavList>
+              <NavList onClick={closeMenu}>Technologia</NavList>
+              <NavList onClick={closeMenu}>Detale</NavList>
+              <NavList onClick={closeMenu}>Kontakt</NavList>
+            </MobileMenu>
           )}
         </div>
       ) : (

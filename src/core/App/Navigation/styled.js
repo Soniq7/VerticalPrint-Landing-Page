@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { ReactComponent as LogoIcon } from "../../../common/images/VerticalPrintLogo.svg";
 import { NavLink } from "react-router-dom";
 import { HiMenuAlt3 as MenuIcon, HiX as CloseIcon } from "react-icons/hi"; // Import ikon z react-icons
@@ -74,4 +74,37 @@ export const Button = styled.button`
   border: none;
   width: 0px;
   display: grid;
+`;
+
+// Definicja animacji wysuwania menu
+const slideIn = keyframes`
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+`;
+
+// Definicja animacji chowania menu
+const slideOut = keyframes`
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+`;
+
+export const MobileMenu = styled.div`
+  position: fixed;
+  top: 60px; /* Adjust as necessary based on your navigation bar height */
+  right: 0;
+  background-color: ${({ theme }) => theme.colors.mineShaft};
+  width: 200px; /* Adjust as necessary */
+  height: calc(100vh - 60px); /* Adjust as necessary */
+  overflow-y: auto; /* Enable scrolling if content exceeds height */
+  padding: 20px;
+  z-index: 1000; /* Ensure it's above other content */
+  animation: ${({ $isOpen }) => ($isOpen ? slideIn : slideOut)} 0.5s ease-in-out; /* Ustawienie animacji na 0.5s */
 `;
