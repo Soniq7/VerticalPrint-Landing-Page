@@ -9,7 +9,7 @@ const Section = ({ title, body, headerContent }) => (
       />
     </Video>
     <HeaderTitle>
-      <p>RWOLUCYJNY DRUK ŚCIENNY</p>
+      <p>REWOLUCYJNY DRUK ŚCIENNY</p>
     </HeaderTitle>
     <HeaderText>
       <p>VerticalPrint...odważ się!</p>
