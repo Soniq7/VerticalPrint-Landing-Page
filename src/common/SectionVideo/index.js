@@ -12,8 +12,7 @@ const Section = ({ title, body, headerContent }) => (
       <p>REWOLUCYJNY DRUK ŚCIENNY</p>
     </HeaderTitle>
     <HeaderText>
-      <p>VerticalPrint...odważ się!</p>
-      <p>Wyróżniaj się czymś unikalnym</p>
+      <p>VerticalPrint...odważ się! <br /> Wyróżniaj się czymś unikalnym</p>
     </HeaderText>
   </StyledSection>
 );
