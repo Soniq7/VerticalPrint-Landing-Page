@@ -1,13 +1,13 @@
-import { StyledSection, Video, HeaderText, HeaderTitle } from "./styled";
+import { StyledSection, BackgroundVideo, HeaderText, HeaderTitle } from "./styled";
 
-const Section = ({ title, body, headerContent }) => (
+const SectionHeader = () => (
   <StyledSection>
-    <Video autoPlay playsInline loop muted>
+    <BackgroundVideo autoPlay playsInline loop muted>
       <source
         src={process.env.PUBLIC_URL + "/backgroundVideo.mp4"}
         type="video/mp4"
       />
-    </Video>
+    </BackgroundVideo>
     <HeaderTitle>
       <p>REWOLUCYJNY DRUK ŚCIENNY</p>
     </HeaderTitle>
@@ -17,4 +17,4 @@ const Section = ({ title, body, headerContent }) => (
   </StyledSection>
 );
 
-export default Section;
+export default SectionHeader;

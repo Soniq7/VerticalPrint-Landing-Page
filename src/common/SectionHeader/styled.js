@@ -6,7 +6,7 @@ export const StyledSection = styled.div`
   height: 100%;
 `;
 
-export const Video = styled.video`
+export const BackgroundVideo = styled.video`
   position: absolute;
   height: 100vh;
   width: 100vw;
