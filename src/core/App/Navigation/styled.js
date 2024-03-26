@@ -53,6 +53,9 @@ export const NavList = styled.li`
   @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
     font-size: 15px;
     padding-top: 5px;
+    border-bottom: 0.5px solid ${({ theme }) => theme.colors.alto};
+    margin-bottom: 10px;
+    padding: 10px;
   }
 `;
 
@@ -101,10 +104,11 @@ export const MobileMenu = styled.div`
   top: 80px; /* Adjust as necessary based on your navigation bar height */
   right: 0;
   background-color: ${({ theme }) => theme.colors.mineShaft};
-  width: 200px; /* Adjust as necessary */
+  width: 250px; /* Adjust as necessary */
   height: calc(100vh - 80px); /* Adjust as necessary */
   overflow-y: auto; /* Enable scrolling if content exceeds height */
   padding: 20px;
   z-index: 1000; /* Ensure it's above other content */
   animation: ${({ $isOpen }) => ($isOpen ? slideIn : slideOut)} 0.5s ease-in-out; /* Ustawienie animacji na 0.5s */
+  line-height: 40px;
 `;
