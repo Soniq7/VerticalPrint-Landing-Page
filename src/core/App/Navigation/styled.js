@@ -15,7 +15,7 @@ export const StyledNav = styled.ul`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 100px;
+  gap: 50px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
     align-content: center;

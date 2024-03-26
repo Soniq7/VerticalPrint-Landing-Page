@@ -51,6 +51,8 @@ const Navigation = () => {
             <MobileMenu $isOpen={isMenuOpen}>
               <NavList onClick={closeMenu}>O nas</NavList>
               <NavList onClick={closeMenu}>Technologia</NavList>
+              <NavList onClick={closeMenu}>Realizacje</NavList>
+              <NavList onClick={closeMenu}>Galeria</NavList>
               <NavList onClick={closeMenu}>Detale</NavList>
               <NavList onClick={closeMenu}>Kontakt</NavList>
             </MobileMenu>
@@ -61,6 +63,8 @@ const Navigation = () => {
         <>
           <NavList>O nas</NavList>
           <NavList>Technologia</NavList>
+          <NavList>Realizacje</NavList>
+          <NavList>Galeria</NavList>
           <NavList>Detale</NavList>
           <NavList>Kontakt</NavList>
         </>
